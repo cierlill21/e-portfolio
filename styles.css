@@ -8,12 +8,16 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #F4F1EA;
+}
+
 html {
     scroll-behavior: smooth;
 }
 
 h1,h2,h3,h4,h5,h6, span {
-    color: #242424;
+    color: #2C2523;
     text-align: center;
     line-height: 1.25;
 }
@@ -94,8 +98,8 @@ li {
     background-color: lightgray;
 }
 
-.text--purple {
-    color: #5d3eff;
+.text--olive {
+    color: #4A7C59;
 }
 
 /* NAVAGATION BAR */
@@ -122,7 +126,7 @@ nav {
 }
 
 .nav__link--anchor-primary {
-    background-color: #5d3eff;
+    background-color: #4A7C59;
     padding: 8px 20px;
     border-radius: 50px;
     color: white;
@@ -131,12 +135,12 @@ nav {
 }
 
 .nav__link--anchor-primary:hover {
-    background-color: #63faff;
+    background-color: #CC5A37;
 }
 
 .personal__logo {
     font-size: 24px;
-    color: #5d3eff;
+    color: #4A7C59;
     margin: 0 12px;
     font-weight: bold;
 }
@@ -169,7 +173,7 @@ nav {
     height: 100px;
     border-radius: 50%;
     overflow: hidden;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 8px 16px rgba(204, 90, 55, 0.75);
     margin-bottom: 28px;
     animation: animate-profile-picture 800ms 200ms backwards;
 }
@@ -208,7 +212,9 @@ nav {
 
 .about-me__link:hover {
     transform: scale(1);
-    opacity: 1;
+    opacity: 0.5;
+    transition: all 300ms ease;
+
 }
 
 @keyframes fade-up {
@@ -232,9 +238,7 @@ nav {
     animation: fade-in 1200ms 800ms backwards;
 }
 
-.about-me__links {
-    animation: fade-up 650ms 800ms backwards;
-}
+
 
 
 @keyframes fade-in {
@@ -259,6 +263,7 @@ nav {
 50% {transform: rotate(30deg)}
 100% {transform: rotate(0)}
 }
+
 
 /*TECH STACK*/
 
@@ -328,7 +333,7 @@ nav {
 
 .project__wrapper {
     display: flex;
-    box-shadow: 0 20px 80px rgba(0, 0, 0, 0.45);
+    box-shadow: 0 20px 80px rgba(204, 90, 55, 0.25);
     border-radius: 20px;
     overflow: hidden;
     position: relative;
