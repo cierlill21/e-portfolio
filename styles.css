@@ -169,12 +169,12 @@ nav {
 }
 
 .about-me__picture--mask {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     overflow: hidden;
     box-shadow: 0 8px 16px rgba(204, 90, 55, 0.75);
-    margin-bottom: 28px;
+    margin-bottom: 16px;
     animation: animate-profile-picture 800ms 200ms backwards;
 }
 
@@ -187,10 +187,10 @@ nav {
 
 .about-me__picture {
     width: 100%;
-
+  
     /* Improving my own picture*/
-    transform: scale(1.5);
-    padding-top: 8px;
+    transform: scale(1);
+    padding-bottom: 16px;
 }
 
 .about-me__info--title {
